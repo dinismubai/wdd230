@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Quicksand:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Oswald:wght@300&family=Quicksand:wght@300&display=swap');
+
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Oswald:wght@300&family=Quicksand:wght@300&display=swap');*/
 
 body {
     max-width: 700px;
     margin: auto;
+    background-color: #ecb090;
 }
 
 header {
@@ -13,8 +15,8 @@ header {
     grid-template-rows: 1fr;
     padding: 2rem;
     text-align: center;
-    background: #1abc9c;
-    box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+    background: #d4dce8;
+    box-shadow: 0 4px 8px 0 #b5a280, 0 6px 20px 0 #b5a280;
     border-radius: 10px;
   }
 
@@ -22,23 +24,23 @@ header {
     grid-column: 1/2;
     grid-row: 1/2;
     border-radius: 10px;
-    box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+    box-shadow: 0 4px 8px 0 #b5a280, 0 6px 20px 0 #b5a280;
   }
 
   .name {
     grid-column: 2/3;
     grid-row: 1/2;
-    color: white;
+    color: #4e383a;
     font-size: 2.5em;
-    text-shadow: 4px 4px 10px gray;
-    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
-    font-family: 'Oswald', sans-serif;
+    text-shadow: 4px 4px 10px #b5a280;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*font-family: 'Oswald', sans-serif;*/
   }
 
 h1 {
-    color: black;
+    color: #4e383a;
     font-size: 2em;
-    text-shadow: 2px 2px 5px gray;
+    text-shadow: 2px 2px 5px #b5a280;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 1em;
 }
@@ -46,34 +48,35 @@ h1 {
 footer {
     padding: 1rem;
     text-align: center;
-    background: #1abc9c;
+    background: #d4dce8;
     border-radius: 10px;
-    box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+    box-shadow: 0 4px 8px 0 #b5a280, 0 6px 20px 0 #b5a280;
     margin-top: 2em;
   }
 
   .note {
-    color: gray;
-    /*font-family: 'Courier New', Courier, monospace;*/
-    font-family: 'Open Sans', sans-serif;
+    color: #27353c;
+    font-family: 'Courier New', Courier, monospace;
+    /*font-family: 'Open Sans', sans-serif;*/
     font-style: italic;
-    font-size: 1em;
+    font-size: 1.1em;
     margin-top: -0.5em;
   }
 
   li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.2em;
+    color: #4e383a;
   }
 
-  h2 {
-    color: white;
+  .copyright {
+    color: #4e383a;
     font-size: 1.1em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .lastupdate {
-    color: yellow;
+    color: #27353c;
     font-size: 0.8em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
