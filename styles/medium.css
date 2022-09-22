@@ -1,0 +1,15 @@
+@media (min-width: 32.5em) {
+    header {
+        margin-top: 0.5em;
+        border-radius: 25px;
+      }
+
+      .photo {
+        border-radius: 25px;
+      }
+
+      footer {
+        padding: 0.5rem;
+        border-radius: 25px;
+      }
+}
