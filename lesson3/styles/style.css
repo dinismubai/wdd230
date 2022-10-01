@@ -1,0 +1,201 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-size: 16px;
+	font-family: "Sansita", Ubuntu, sans-serif;
+}
+
+header,
+footer {
+	background-color: #708080;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	max-width: 22em;
+}
+/**********************************Index Page********************************************/
+main {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 1fr;
+    grid-template-rows: 50px 2fr 50px 1fr;
+	padding: 0.5rem;
+	max-width: 22em;
+}
+
+.nameofsite {
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+.purpose {
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
+
+.domainname {
+	grid-column: 1/2;
+	grid-row: 3/4;
+}
+
+.logo {
+	grid-column: 1/2;
+	grid-row: 4/5;
+}
+/**************************************Audience's Page*****************************************/
+.maingrid-audience {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr 2fr;
+	padding: 0.5rem;
+	max-width: 22em;
+}
+
+.description {
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+.personas {
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
+
+.scenarios {
+	margin-left: 25px;
+	grid-column: 1/2;
+	grid-row: 3/4;
+}
+
+
+header,
+nav,
+main,
+footer {
+	max-width: 22em;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	padding: .5rem;
+	color: #536878;
+}
+
+p {
+	padding: .5rem;
+}
+
+nav {
+	background-color: #36454f;
+	text-align: center;
+	box-shadow: 0 0 30px #333;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+}
+
+nav div {
+	flex: 1 1 auto;
+}
+
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
+nav a:hover {
+	background-color: #708080;
+	color: yellow;
+}
+
+/***********************************************/
+/** Media Queries for larger views *************/
+/***********************************************/
+
+/*****************************************Tablets*********************************************/
+
+@media only screen and (min-width: 37.5em) {
+
+	header,
+	footer {
+		max-width: 51.25em;
+	}
+
+	nav {
+		flex-direction: row;
+		max-width: 51.25em;
+	}
+	
+	nav a {
+		font-size: 1.1rem;
+	}
+	/********************************Index Page*************************************/
+	main {
+		max-width: 51.25em;
+		grid-template-columns: 1fr 2fr;
+		grid-template-rows: 1fr 1fr 1fr;
+	}
+
+	.nameofsite {
+		grid-column: 1/2;
+		grid-row: 1/2;
+	}
+
+	.domainname {
+		grid-column: 1/2;
+		grid-row: 2/3;
+	}
+	
+	.logo {
+		grid-column: 1/2;
+		grid-row: 3/4;
+	}
+
+	.purpose {
+		grid-column: 2/3;
+		grid-row: 1/4;
+	}
+}
+
+/******************************Desktops********************************/
+
+@media (min-width: 48em) {
+
+	header,
+	footer {
+		max-width: 100%;
+	}
+
+	nav {
+		max-width: 100%;
+	}
+
+	nav a {
+		font-size: 1.3rem;
+	}
+
+	
+
+	main {
+		max-width: 80%;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+	}
+
+}
+
