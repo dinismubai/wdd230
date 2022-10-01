@@ -18,27 +18,37 @@ footer {
 	padding: 10px;
 	max-width: 22em;
 }
+
+p {
+	text-align: center;
+	font-size: 1.5em;
+}
+
 /**********************************Index Page********************************************/
 main {
 	display: grid;
 	justify-content: center;
 	grid-template-columns: 1fr;
-    grid-template-rows: 50px 2fr 50px 1fr;
+    grid-template-rows: .5fr 2fr .5fr 1fr;
 	padding: 0.5rem;
 	max-width: 22em;
+
 }
 
 .nameofsite {
 	grid-column: 1/2;
 	grid-row: 1/2;
+	justify-content: center;
 }
 
 .purpose {
+	margin: 0%;
 	grid-column: 1/2;
 	grid-row: 2/3;
 }
 
 .domainname {
+	margin: 0%;
 	grid-column: 1/2;
 	grid-row: 3/4;
 }
@@ -48,11 +58,17 @@ main {
 	grid-row: 4/5;
 }
 /**************************************Audience's Page*****************************************/
+li {
+	margin-left: 2rem;
+	text-align: justify;
+	text-align: center;
+	font-size: 1.5em;
+}
 .maingrid-audience {
 	display: grid;
 	justify-content: center;
 	grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr 2fr;
+    grid-template-rows: 1fr .5fr 1fr;
 	padding: 0.5rem;
 	max-width: 22em;
 }
@@ -68,7 +84,7 @@ main {
 }
 
 .scenarios {
-	margin-left: 25px;
+	margin-top: 2rem;
 	grid-column: 1/2;
 	grid-row: 3/4;
 }
@@ -121,6 +137,14 @@ nav a {
 nav a:hover {
 	background-color: #708080;
 	color: yellow;
+}
+
+.colorh1 {
+	color: #e6e8ea;
+}
+
+.colorh2 {
+	color: #e6e8ea;
 }
 
 /***********************************************/
