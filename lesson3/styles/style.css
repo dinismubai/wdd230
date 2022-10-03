@@ -6,10 +6,11 @@
 body {
 	font-size: 16px;
 	font-family: "Sansita", Ubuntu, sans-serif;
+	background-color: #c3c4a0;
 }
 
 header {
-	background-color: #708080;
+	background-color: #b5a280;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -19,7 +20,7 @@ header {
 }
 
 footer {
-	background-color: #708080;
+	background-color: #b5a280;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -30,7 +31,9 @@ footer {
 
 p {
 	text-align: justify;
-	font-size: 1.5em;
+	font-size: 1.9em;
+	color: #0E0F16;
+	padding: .5rem;
 }
 
 main {
@@ -45,6 +48,7 @@ main {
 #nameofsite {
 	grid-column: 1/2;
 	grid-row: 1/2;
+	color: #0E0F16;
 }
 
 
@@ -56,17 +60,20 @@ h2 {
 #purpose {
 	grid-column: 1/2;
 	grid-row: 2/3;
+	color: #0E0F16;
 }
 
 #domainname {
 	margin: 0%;
 	grid-column: 1/2;
 	grid-row: 3/4;
+	color: #0E0F16;
 }
 
 #logo {
 	grid-column: 1/2;
 	grid-row: 4/5;
+	color: #0E0F16;
 }
 
 #logoimage {
@@ -85,16 +92,14 @@ footer {
 
 h1 {
 	font-size: 2rem;
+	color: #0E0F16;
 }
 
-p {
-	padding: .5rem;
-}
 
 nav {
-	background-color: #36454f;
+	background-color: #4e383a;
 	text-align: center;
-	box-shadow: 0 0 30px #333;
+	box-shadow: 0 0 30px #4e383a;
 }
 
 nav {
@@ -112,21 +117,15 @@ nav a {
 	text-align: center;
 	padding: 15px;
 	text-decoration: none;
-	font-size: 0.9rem;
+	font-size: 1rem;
 }
 
 nav a:hover {
-	background-color: #708080;
-	color: yellow;
+	background-color: #27353C;
+	color: #FCFCF2;
 }
 
-#colorh1 {
-	color: #e6e8ea;
-}
 
-#colorh2 {
-	color: #e6e8ea;
-}
 
 /***********************************************/
 /** Media Queries for larger views *************/
@@ -147,7 +146,7 @@ nav a:hover {
 	}
 	
 	nav a {
-		font-size: 1.1rem;
+		font-size: 1.4rem;
 	}
 	
 	main {
@@ -191,7 +190,7 @@ nav a:hover {
 	}
 
 	nav a {
-		font-size: 1.3rem;
+		font-size: 1.6rem;
 	}
 
 	

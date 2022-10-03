@@ -8,25 +8,6 @@ body {
 	font-family: "Sansita", Ubuntu, sans-serif;
 }
 
-header {
-	background-color: #708080;
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-	justify-content: center;
-	padding: 10px;
-	max-width: 22em;
-}
-
-footer {
-	background-color: #708080;
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-	justify-content: center;
-	padding: 10px;
-	max-width: 22em;
-}
 
 #maingrid-color {
     display: grid;
@@ -35,6 +16,22 @@ footer {
     grid-template-rows: 1fr;
 	padding: 0.5rem;
 	max-width: 22em;
+	color: #0E0F16;
+}
+
+#colorh1 {
+	text-align: center;
+	color:  #0E0F16;
+}
+
+#colorh2 {
+	text-align: center;
+	color:  #0E0F16;
+}
+
+#colorp {
+	text-align: center;
+	color:  #0E0F16;
 }
 
 header,
@@ -48,13 +45,17 @@ footer {
 h1 {
 	font-size: 2rem;
 }
-
-p {
+h2 {
 	padding: .5rem;
 }
 
+p {
+	padding: .5rem;
+    text-align: justify;
+}
+
 nav {
-	background-color: #36454f;
+	background-color: #4e383a;
 	text-align: center;
 	box-shadow: 0 0 30px #333;
 }
@@ -74,20 +75,12 @@ nav a {
 	text-align: center;
 	padding: 15px;
 	text-decoration: none;
-	font-size: 0.9rem;
+	font-size: 1rem;
 }
 
 nav a:hover {
-	background-color: #708080;
-	color: yellow;
-}
-
-#colorh1 {
-	color: #e6e8ea;
-}
-
-#colorh2 {
-	color: #e6e8ea;
+	background-color: #27353C;
+	color: #FCFCF2;
 }
 
 /***********************************************/
@@ -115,6 +108,24 @@ nav a:hover {
         padding: 0.5rem;
         max-width: 51.25em;
     }
+
+	#colorbackground {
+		text-align: center;
+	}
+
+	#colorpagebackground {
+		text-align: center;
+	}
+
+	#colornav {
+		text-align: center;
+	}
+
+	#colornav {
+		text-align: center;
+	}
+
+
 
 }
 

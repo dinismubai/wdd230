@@ -1,13 +1,13 @@
 li {
 	margin-left: 2rem;
 	text-align: justify;
-	font-size: 1.5em;
+	font-size: 1.9em;
 }
 #maingrid-audience {
 	display: grid;
 	justify-content: center;
 	grid-template-columns: 1fr;
-    grid-template-rows: 1fr .3fr 1fr;
+    grid-template-rows: 1fr .3fr 0.5fr;
 	padding: 0.5rem;
 	max-width: 22em;
 }
@@ -15,18 +15,21 @@ li {
 #description {
 	grid-column: 1/2;
 	grid-row: 1/2;
+	color: #0E0F16;
 }
 
 #personas {
 	grid-column: 1/2;
 	grid-row: 2/3;
     margin-top: .5em;
+	color: #0E0F16;
 }
 
 #scenarios {
 	margin-top: 2rem;
 	grid-column: 1/2;
 	grid-row: 3/4;
+	color: #0E0F16;
 }
 
 header,
@@ -42,7 +45,6 @@ h1 {
 }
 h2 {
 	padding: .5rem;
-	color: #536878;
 }
 
 p {
@@ -51,7 +53,7 @@ p {
 }
 
 nav {
-	background-color: #36454f;
+	background-color: #4e383a;
 	text-align: center;
 	box-shadow: 0 0 30px #333;
 }
@@ -71,20 +73,12 @@ nav a {
 	text-align: center;
 	padding: 15px;
 	text-decoration: none;
-	font-size: 0.9rem;
+	font-size: 1rem;
 }
 
 nav a:hover {
-	background-color: #708080;
-	color: yellow;
-}
-
-#colorh1 {
-	color: #e6e8ea;
-}
-
-#colorh2 {
-	color: #e6e8ea;
+	background-color: #27353C;
+	color: #FCFCF2;
 }
 
 /***********************************************/
@@ -149,7 +143,7 @@ nav a:hover {
 
     #maingrid-audience {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: .5fr .5fr;
+        grid-template-rows: 1fr 1fr;
        
         max-width: 80%;
     }
