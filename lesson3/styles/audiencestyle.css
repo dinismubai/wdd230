@@ -1,79 +1,33 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-body {
-	font-size: 16px;
-	font-family: "Sansita", Ubuntu, sans-serif;
-}
-
-header {
-	background-color: #708080;
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-	justify-content: center;
-	padding: 10px;
-	max-width: 22em;
-}
-
-footer {
-	background-color: #708080;
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-	justify-content: center;
-	padding: 10px;
-	max-width: 22em;
-}
-
-p {
+li {
+	margin-left: 2rem;
 	text-align: justify;
 	font-size: 1.5em;
 }
-
-main {
+#maingrid-audience {
 	display: grid;
 	justify-content: center;
 	grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 2fr .5fr 1fr;
+    grid-template-rows: 1fr .3fr 1fr;
 	padding: 0.5rem;
 	max-width: 22em;
 }
 
-#nameofsite {
+#description {
 	grid-column: 1/2;
 	grid-row: 1/2;
 }
 
-
-h2 {
-	margin-left: 2rem;
-	text-align: center;
-}
-
-#purpose {
+#personas {
 	grid-column: 1/2;
 	grid-row: 2/3;
+    margin-top: .5em;
 }
 
-#domainname {
-	margin: 0%;
+#scenarios {
+	margin-top: 2rem;
 	grid-column: 1/2;
 	grid-row: 3/4;
 }
-
-#logo {
-	grid-column: 1/2;
-	grid-row: 4/5;
-}
-
-#logoimage {
-  display: block;
-  margin: auto;
-}
-
 
 header,
 nav,
@@ -86,9 +40,14 @@ footer {
 h1 {
 	font-size: 2rem;
 }
+h2 {
+	padding: .5rem;
+	color: #536878;
+}
 
 p {
 	padding: .5rem;
+    text-align: justify;
 }
 
 nav {
@@ -136,7 +95,7 @@ nav a:hover {
 
 @media only screen and (min-width: 37.5em) {
 
-	header,
+    header,
 	footer {
 		max-width: 51.25em;
 	}
@@ -145,39 +104,33 @@ nav a:hover {
 		flex-direction: row;
 		max-width: 51.25em;
 	}
-	
-	nav a {
-		font-size: 1.1rem;
-	}
-	
-	main {
-		max-width: 51.25em;
-		grid-template-columns: 1fr 2fr;
-		grid-template-rows: 10px 10px 1fr;
-	}
 
-	#nameofsite {
-		grid-column: 1/2;
-		grid-row: 1/2;
-	}
+    #maingrid-audience {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: .5fr .5fr;
+        gap: 1em;
+        padding: 0.5rem;
+        max-width: 51.25em;
+    }
 
-	#domainname {
-		grid-column: 1/2;
-		grid-row: 2/3;
-	}
-	
-	#logo {
-		grid-column: 1/2;
-		grid-row: 3/4;
-	}
+    #description {
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
 
-	#purpose {
-		grid-column: 2/3;
-		grid-row: 1/4;
-	}
+    #personas {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    
+    #scenarios {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin-top: 1em;
+    }
 }
 
-/******************************Desktops********************************/
+    /******************************Desktops********************************/
 
 @media (min-width: 48em) {
 
@@ -194,13 +147,28 @@ nav a:hover {
 		font-size: 1.3rem;
 	}
 
-	
+    #maingrid-audience {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: .5fr .5fr;
+       
+        max-width: 80%;
+    }
 
-	main {
-		max-width: 80%;
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 1fr 1fr 1fr;
-	}
+
+    #description {
+        grid-column: 1/2;
+        grid-row: 1/3;
+        margin-left: 0%;
+    }
+
+    #personas {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    
+    #scenarios {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
 
 }
-
