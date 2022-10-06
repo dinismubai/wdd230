@@ -1,5 +1,31 @@
 @media only screen and (min-width: 64rem) {
-    nav ul li a {
+    /*nav ul li a {
         padding: -5rem 1rem;
+    }*/
+
+    nav button {
+        display: none;
     }
+
+    nav ul#primarynav{
+        display: flex;
+        margin-left: 2vw;
+        justify-content: flex-end;
+    }
+
+    nav ul li a {
+        border: none;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        width: 74em;
+        justify-content: center;
+        margin: auto;
+        padding: 0.5em;
+        gap: 0.5em;
+    }
+
 }
