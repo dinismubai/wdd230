@@ -1,4 +1,6 @@
-
+body {
+    background-color: #c3c4a0;
+}
 nav button {
     margin: .4rem 5vw 2rem 0;
     background-color: transparent;
