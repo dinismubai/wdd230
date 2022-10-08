@@ -189,6 +189,14 @@ main {
     border: solid;
 }
 
+#spotlight3 {
+    display: none;
+}
+
+#join {
+    display: none;
+}
+
 footer {
     justify-content: center;
     background-color: #4e383a;
@@ -211,6 +219,10 @@ footer {
     font-size: 0.8em;
     text-align: center;
     font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#dontdisplay {
+    display: none;
 }
 
 
