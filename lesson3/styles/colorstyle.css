@@ -22,16 +22,33 @@ body {
 #colorh1 {
 	text-align: center;
 	color:  #0E0F16;
+	border-color: #0E0F16;
+	border: solid;
 }
 
 #colorh2 {
 	text-align: center;
 	color:  #0E0F16;
+	border-color: #0E0F16;
+	border: solid;
+	margin: auto;
 }
 
 #colorp {
 	text-align: center;
 	color:  #0E0F16;
+	border-color: #0E0F16;
+	border: solid;
+}
+
+#colornav {
+	background-color: #4e383a;
+	color: #fff;
+}
+
+#colornavtext {
+	color: #fff;
+	background-color: #4e383a;
 }
 
 header,
@@ -118,6 +135,10 @@ nav a:hover {
 	}
 
 	#colornav {
+		text-align: center;
+	}
+
+	#colornavtext {
 		text-align: center;
 	}
 

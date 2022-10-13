@@ -40,7 +40,7 @@ main {
 	display: grid;
 	justify-content: center;
 	grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 2fr .5fr 1fr;
+    grid-template-rows: 0.5fr 2fr .5fr 15em;
 	padding: 0.5rem;
 	max-width: 22em;
 }
@@ -93,6 +93,7 @@ footer {
 h1 {
 	font-size: 2rem;
 	color: #0E0F16;
+	font-family: "Work+Sans", "sans-sarif";
 }
 
 
