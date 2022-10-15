@@ -49,7 +49,7 @@ nav {
 
 #date {
     text-align: center;
-    font-size: .7em;
+    font-size: 1em;
     background-color: #4e383a;
     margin: auto;
     margin-bottom: 1em;
@@ -91,6 +91,17 @@ nav ul {
 nav ul.open {
     display: block;
    
+}
+
+#banner {
+    /*border: 2px solid black;*/
+    margin: auto;  
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    background-color: #F9fb7e;
+    font-size: 1.2em;
+    color: #505129;
 }
 
 #menubtn span:nth-child(1) {
@@ -226,6 +237,26 @@ footer {
 #dontdisplay {
     display: none;
 }
+
+.btn {
+    position: relative;
+    text-align: center;
+    margin-left: 14em;
+    margin-top: 1.9em;
+    position: static;
+    width: 9em;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #4e383a;
+    color: #fff;
+    font-size: 1em;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
 
 
 

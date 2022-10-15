@@ -84,17 +84,11 @@
     }
 
     #sitename {
-        font-size: 2em;
+        font-size: 20px;
     }
 
     #date {
-        text-align: center;
-        font-size: 1em;
-        background-color: #4e383a;
-        margin: auto;
-        margin-bottom: 1em;
-        color: #fff;
-        font-family: 'Montserrat', Courier, monospace;
+        font-size: 22px;
     }
 
     #fbicon {
@@ -108,7 +102,7 @@
     }
 
     nav ul li a {
-        font-size: 2em;
+        font-size: 1.2em;
     }
 
     footer {
@@ -132,4 +126,23 @@
         margin-left: .7em;
     }
 
+    #banner {
+        font-size: 30px;
+        
+    }
+
+    .btn {
+        text-align: center;
+        margin-top: 25em;
+        margin-left: 17em;
+        position: static;
+        width: 150px;
+        background-color: #4e383a;
+        color: #fff;
+        font-size: 20px;
+        padding: 16px 30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
 }

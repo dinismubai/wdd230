@@ -68,4 +68,34 @@
         border: solid;
     }
 
+    #banner {
+        font-size: 30px;
+    }
+
+    #date {
+        font-size: 1.5em;
+    }
+
+    #sitename {
+        font-size: 20px;
+    }
+
+    .btn {
+        text-align: center;
+        margin-left: 60%;
+        margin-top: 2.5em;
+        position: absolute;
+        width: 9em;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #4e383a;
+        color: #fff;
+        font-size: 20px;
+        padding: 16px 30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+    }
+
 }
