@@ -26,7 +26,7 @@
 <body> 
         <header>
             <nav>
-                <img class="logo" src="images/logo.jpg" alt="Logo image" width="50" height="40">
+                <img class="logo" src="images/logo.webp" alt="Logo image" width="50" height="40">
                 <h2 id="sitename"><a href="#">Maputo <br>Chamber of Commerce</a></h2>
                 <a id="facebokicon" href="#"><img id="fbicon" src="images/facebook.jpg" alt="facebook icon" width="30" height="30"></a>
                 <a id="linkedinicon" href="#"><img id="lnicon" src="images/linkedin.jpg" alt="linkedIn icon" width="30" height="30"></a>
@@ -45,7 +45,13 @@
     
 
     <main>
-        <section id="heroimage"><h3>Hero with site name and call to action</h3>
+        <section id="heroimage">
+            <picture>
+                <source srcset="images/medium.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                <source srcset="images/large.jpg" media="(min-width: 800px)">
+                <img id="heroimg" src="images/small.jpg" alt="Hero image">
+            </picture>
+
             <button class="btn">Join the Chamber</button>
         </section>
         <section id="event"><h3>Event</h3></section>
@@ -61,7 +67,7 @@
     
 
     <footer>
-        <img id="logofooter" src="images/logo.jpg" alt="Logo image" width="90" height="80">
+        <img id="logofooter" src="images/logo.webp" alt="Logo image" width="90" height="80">
         <h1 id="sitenamefooter">Maputo Chamber of Commerce</h1>
         <h2 class="address-contact">
             Av. de Mocambique n. 27<br>

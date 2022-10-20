@@ -145,9 +145,15 @@ main {
     grid-column: 1;
     grid-row: 1;
     height: 10em;
-    background-color: #fff;
+    /*background-color: #fff;
     border-color: black;
-    border: solid;
+    border: solid;*/
+}
+
+#heroimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #event {
@@ -239,22 +245,17 @@ footer {
 }
 
 .btn {
-    position: relative;
     text-align: center;
-    margin-left: 14em;
-    margin-top: 1.9em;
-    position: static;
-    width: 9em;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    margin-top: 50px;
+    margin-left: -45vw;
+    position: absolute;
+    width: 150px;
     background-color: #4e383a;
     color: #fff;
-    font-size: 1em;
+    font-size: 20px;
     padding: 16px 30px;
-    border: none;
-    cursor: pointer;
     border-radius: 5px;
-    text-align: center;
+    opacity: 0.8;
 }
 
 
