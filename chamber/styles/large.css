@@ -164,8 +164,7 @@
     }
 
     #joinbtn {
-        text-align: center;
-        width: 25em;
+        width: 12em;
         position: absolute;
         background-color: #566a82;
         color: #fff;
@@ -173,7 +172,7 @@
         padding: 16px 30px;
         border-radius: 5px;
         opacity: 0.8;
-        margin-left: 33em;
+        margin-left: 40em;
         margin-top: -1em;
     
     }
@@ -183,6 +182,10 @@
     }
     
     #declarationicon {
+        margin-left: 11.5em;
+    }
+
+    #partnericon {
         margin-left: 11.5em;
     }
 }

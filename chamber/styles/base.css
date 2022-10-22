@@ -229,7 +229,7 @@ footer {
     font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#dontdisplay {
+.dontdisplay {
     display: none;
 }
 
@@ -250,7 +250,7 @@ footer {
 .titleh3 {
     text-align: center;
     color: #fff;
-    font-family: "Work+Sans", "sans-serif";
+    font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p{
@@ -272,7 +272,7 @@ p{
 }
 
 #windspeed {
-    margin-left: -10em;
+    margin-left: -6em;
 }
 
 #windchill {

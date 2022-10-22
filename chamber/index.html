@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="utf-8">
     <meta name="description" content="Building the HomePage">
@@ -45,7 +45,7 @@
     
 
     <main>
-        <section id="heroimage">
+        <section id="heroimage"><h3 class="dontdisplay">Hero section</h3>
             <picture>
                 <source srcset="images/medium.jpg" media="(min-width: 500px) and (max-width: 799px)">
                 <source srcset="images/large.jpg" media="(min-width: 800px)">
@@ -66,10 +66,10 @@
 
         <section id="weather"><h3 class="titleh3">Weather</h3>
             <img id="weathericon" src="images/weather.png" alt="Weather Icon" width="50" height="45">
-            <p class="temperature">32ºC</p>
+            <p class="temperature"><span id="currenttemp">32</span>ºC</p>
             <p class="temperature">Partly Cloudy</p>
             <hr>
-            <p id="windspeed">Wind Speed: <span id="speed"></span> </p>
+            <p id="windspeed">Wind Speed: <span id="speed">2.5</span> km/h</p>
             <p id="windchill">Wind Chill: <span id="chill"></span></p>
         </section>
         <section id="newsrelease"><h3 class="titleh3">News Release</h3>
@@ -77,20 +77,25 @@
                 Ut enim ad minim veniam.
             </p>
         </section>
-        <section id="spotlightsgrid"><h3 id="dontdisplay">SpotLights</h3>
+        <section id="spotlightsgrid"><h3 class="dontdisplay">SpotLights</h3>
             <section id="spotlight1"><h3 class="titleh3">Shipping Tips</h3>
-                <img id="shippingicon" src="images/shippingicon.png" alt="Shipping Icon" width="80" height="80">
+                <img id="shippingicon" src="images/shippingicon.png" alt="shipping icon" width="80" height="80">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     Ut enim ad minim veniam.
                 </p>
             </section>
-            <section id="spotlight2"><h3 class="titleh3">Spot Light 2</h3>
-                <img id="declarationicon" src="images/declaration.png" alt="Declaration icon" width="80" height="80">
+            <section id="spotlight2"><h3 class="titleh3">Trainings</h3>
+                <img id="declarationicon" src="images/declaration.png" alt="declaration icon" width="80" height="80">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     Ut enim ad minim veniam.
                 </p>
             </section>
-            <section id="spotlight3"><h3 class="titleh3">Spot Light</h3> </section>
+            <section id="spotlight3"><h3 class="titleh3">Partner of the Month</h3> 
+                <img id="partnericon" src="images/partner.png" alt="partner icon" width="80" height="80">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam.
+                </p>
+            </section>
         </section>
         <section id="join"><h3 class="titleh3">Join</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -120,5 +125,6 @@
     <script src="scripts/date.js"></script>
     <script src="scripts/nav.js"></script>
     <script src="scripts/lastmodified.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
