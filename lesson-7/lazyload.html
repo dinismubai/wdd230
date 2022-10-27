@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Progressive Loading of Images">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 7</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    
+        <header>
+            <h1 class="name">Progressive Loading of Images</h1> 
+        </header>
+        
+        <main id="home-grid">
+            <picture id="firstpicture">
+                <source srcset="images/kitty1medium.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                <source srcset="images/kitty1.jpg" media="(min-width: 800px)">
+                <img src="images/placeholder.png" data-src="images/kitty1small.jpg" alt="image" loading="lazy" width="400" height="300">
+            </picture>
+
+            <picture id="secondpicture">
+                <source srcset="images/kitty2medium.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                <source srcset="images/kitty2.jpg" media="(min-width: 800px)">
+                <img src="images/placeholder.png" data-src="images/kitty2small.jpg" alt="image" loading="lazy" width="400" height="300">
+            </picture>
+
+            <picture id="thirdpicture">
+                <source srcset="images/kitty3medium.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                <source srcset="images/kitty3.jpg" media="(min-width: 800px)">
+                <img src="images/placeholder.png" data-src="images/kitty3small.jpg" alt="image" loading="lazy" width="400" height="300">
+            </picture>
+
+            <picture id="fourthpicture">
+                <source srcset="images/kitty4medium.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                <source srcset="images/kitty4.jpg" media="(min-width: 800px)">
+                <img src="images/placeholder.png" data-src="images/kitty4small.jpg" alt="image" loading="lazy" width="400" height="300">
+            </picture>
+
+            <picture id="fithpicture">
+                <source srcset="images/kitty5medium.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                <source srcset="images/kitty5.jpg" media="(min-width: 800px)">
+                <img src="images/placeholder.png" data-src="images/kitty5small.jpg" alt="image" loading="lazy" width="400" height="300">
+            </picture>
+            
+        </main>
+
+        <footer> 
+            <h1 class="copyright">&copy; <span id="year"></span> .:|:. Dinis M. Mubai .:|:. Maputo</h1>
+            <script src="scripts/yearscript.js"></script>
+            
+        </footer>
+        <script src="scripts/images.js"></script>
+</body>
+</html>
