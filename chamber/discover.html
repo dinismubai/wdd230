@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Building the HomePage">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Dinis Mubai">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Maputo Chamber of Commerce</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
+  
+</head>
+
+<body> 
+        <header>
+            <nav>
+                <img class="logo" src="images/logo.webp" alt="Logo image" width="50" height="40">
+                <h2 id="sitename"><a href="#">Maputo <br>Chamber of Commerce</a></h2>
+                <a id="facebokicon" href="#"><img id="fbicon" src="images/facebook.jpg" alt="facebook icon" width="30" height="30"></a>
+                <a id="linkedinicon" href="#"><img id="lnicon" src="images/linkedin.jpg" alt="linkedIn icon" width="30" height="30"></a>
+                <button id="menubtn"><span>&#9776;</span><span>x</span></button>
+                <ul id="primarynav">
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>  
+                    <li><a href="#">Contact</a></li>  
+                </ul>
+            </nav>
+            <p id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+            <p id="date"><span id="fulldate"></span></p>
+        </header>
+    
+    
+
+    <main id="discover">
+
+        <section id="visitors"><h3 class="titleh3">Number of visitors</h3>
+            <img id="visitoricon" src="images/visitoricon.png" alt="Weather Icon" width="90" height="80">
+            <p><span class="label"> </span><span class="visits"></span> </p>
+        </section>
+
+    
+        <section id="thepictures"><h3 class="titleh3">Image Galery</h3>
+            <h3 id="descriptionapartaments">Apartaments</h3>
+            <picture class="pictures">
+                <source srcset="images/housesmedium.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                <source srcset="images/houseslarge.jpg" media="(min-width: 800px)">
+                <img class="imgs" src="images/placeholder.png" data-src="images/housessmall.jpg" alt="houses image" loading="lazy" width="400" height="300">
+            </picture>
+
+            <h3 id="descriptionmangroove">Mangroves</h3>
+            <picture class="pictures">
+                <source srcset="images/mangalmedium.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                <source srcset="images/mangallarge.jpg" media="(min-width: 800px)">
+                <img class="imgs" src="images/placeholder.png" data-src="images/mangalsmall.jpg" alt="mangal image" loading="lazy" width="400" height="300">
+            </picture>
+
+            <h3 id="descriptionoffice">Offices</h3>
+            <picture class="pictures">
+                <source srcset="images/officemedium.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                <source srcset="images/officelarge.jpg" media="(min-width: 800px)">
+                <img class="imgs" src="images/placeholder.png" data-src="images/officesmall.jpg" alt="office image" loading="lazy" width="400" height="300">
+            </picture>
+
+            <h3 id="descriptionroads">Roads</h3>
+            <picture class="pictures">
+                <source srcset="images/roadsmedium.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                <source srcset="images/roadslarge.jpg" media="(min-width: 800px)">
+                <img class="imgs" src="images/placeholder.png" data-src="images/roadssmall.jpg" alt="roads image" loading="lazy" width="400" height="300">
+            </picture>
+
+            <h3 id="descriptionsunset">Sunsets</h3>
+            <picture class="pictures">
+                <source srcset="images/sunsetmedium.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                <source srcset="images/sunsetlarge.jpg" media="(min-width: 800px)">
+                <img class="imgs" src="images/placeholder.png" data-src="images/sunsetsmall.jpg" alt="sunset image" loading="lazy" width="400" height="300">
+            </picture>
+
+        </section>
+
+        <section id="demographic"><h3 class="titleh3">Demographic information</h3>
+            <p>
+                Maputo City is geographically located in the southern region of Mozambique, occupying an AREA of 347.69 km2, with an estimated population of 1,209,992
+                 inhabitants, with a population density of 4,033 Habi/km2. 
+        </section>
+    </main>
+    
+
+    <footer>
+        <img id="logofooter" src="images/logo.webp" alt="Logo image" width="90" height="80">
+        <h1 id="sitenamefooter">Maputo Chamber of Commerce</h1>
+        <h2 class="address-contact">
+            Av. de Mocambique n. 27<br>
+            Maputo, Mocambique 258<br>
+            info@maputochamber.org<br>
+            +(258) 845-785-875<br>
+            Location Map
+        </h2>
+        <hr>
+        <p id="copyright">&copy; <span id="year"></span> Maputo Chamber <br> 
+            Dinis M. Mubai <br>
+            WDD 230 Project<br>
+            Last Updated:<span id="lastmodified"></span></p>
+    </footer>
+    <script src="scripts/date.js"></script>
+    <script src="scripts/nav.js"></script>
+    <script src="scripts/lastmodified.js"></script>
+    <script src="scripts/visitors.js"></script>
+    <script src="scripts/images.js"></script>
+</body>
+</html>

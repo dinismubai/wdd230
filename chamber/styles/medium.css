@@ -118,7 +118,74 @@
         opacity: 0.8;
         margin-left: 3em;
         margin-top: 3em;
+    }
+
+    .imgs {
+        width: 650px;
+        height: 600px;
+    }
+
+    #thepictures {
+        margin-top: -250px;
+    }
+
+    #demographic {
+        font-size: 2em;
+    }
+
+    #descriptionapartaments {
+        position: absolute;
+        top: 67%;
+        left: 19%;
+        text-align: center;
+        color: #fff;
+        font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 5em;
+        -webkit-text-stroke: .01px #4e383a;
+    }
     
+    #descriptionmangroove {
+        position: absolute;
+        top: 125%;
+        left: 24%;
+        text-align: center;
+        color: #fff;
+        font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 5em;
+        -webkit-text-stroke: .01px #4e383a;
+    }
+    
+    #descriptionoffice {
+        position: absolute;
+        top: 185%;
+        left: 34%;
+        text-align: center;
+        color: #fff;
+        font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 5em;
+        -webkit-text-stroke: .01px #4e383a;
+    }
+    
+    #descriptionroads {
+        position: absolute;
+        top: 240%;
+        left: 35%;
+        text-align: center;
+        color: #fff;
+        font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 5em;
+        -webkit-text-stroke: .01px #4e383a;
+    }
+    
+    #descriptionsunset {
+        position: absolute;
+        top: 305%;
+        left: 32%;
+        text-align: center;
+        color: #fff;
+        font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 5em;
+        -webkit-text-stroke: .01px #4e383a;
     }
 
 
