@@ -1,0 +1,53 @@
+body {
+    margin: auto;
+    margin-top: 1em;
+}
+
+table {
+    border: 1px solid #ddd;
+    margin: auto;
+  }
+  
+  th, td, tr {
+    padding: 16px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #eab676;
+  }
+
+  #spanned {
+    background-color: #440909;
+    color:#e9e1e1;
+    font-size: 2em;
+  }
+
+  #headerrow {
+    background-color: #95744b;
+  }
+
+  #paintcell {
+    background-color: #440909;
+    color:#e9e1e1;
+  }
+  /*#403220*/
+
+  @media only screen and (min-width: 37.5em) {
+    table {
+        width: 80%;
+        border: 1px solid #ddd;
+        margin: auto;
+      }
+  }
+
+  @media only screen and (min-width: 60em) {
+
+    table {
+        width: 50%;
+        border: 1px solid #ddd;
+        margin: auto;
+      }
+  }
