@@ -1,0 +1,67 @@
+{
+    "companies": [
+        {
+            "name": "Vodacom",
+            "address": "Maputo, Down town 125",
+            "phone": "8475898520",
+            "weburl": "https://vm.co.mz/",
+            "image": "images/vodacom.jpg"
+        },
+        {
+            "name": "Movitel",
+            "address": "Maputo, Down town 200",
+            "phone": "8785896545",
+            "weburl": "https://movitel.co.mz/",
+            "image": "images/movitel.jpg"
+        },
+        {
+            "name": "TMCEL",
+            "address": "Maputo, Down town 300",
+            "phone": "825698553",
+            "weburl": "https://www.tmcel.mz/",
+            "image": "images/tmcel.jpg"
+        },
+        {
+            "name": "Standard Bank",
+            "address": "Maputo, Av. 10 de Novembro 159",
+            "phone": "8496854523",
+            "weburl": "https://www.standardbank.co.mz/",
+            "image": "images/standard.jpg"
+        },
+        {
+            "name": "BCI",
+            "address": "Maputo, Av. 25 de Setembro 696",
+            "phone": "8499885562",
+            "weburl": "https://www.bci.co.mz/",
+            "image": "images/bci.jpg"
+        },
+        {
+            "name": "Millenium Bim",
+            "address": "Maputo, Down town 587",
+            "phone": "846965873",
+            "weburl": "https://www.millenniumbim.co.mz/pt/mass-market",
+            "image": "images/bim.jpg"
+        },
+        {
+            "name": "Absa Bank",
+            "address": "Maputo, Down town 693",
+            "phone": "8466559982",
+            "weburl": "https://www.absa.co.mz/pt/banca-pessoal/",
+            "image": "images/absa.jpg"
+        },
+        {
+            "name": "Cimentos de Moçambique",
+            "address": "Maputo, Down town 693",
+            "phone": "8498985457",
+            "weburl": "https://www.cimentosdemocambique.co.mz/",
+            "image": "images/cimentos.jpg"
+        },
+        {
+            "name": "CFM",
+            "address": "Maputo, Down town 001",
+            "phone": "8258585874",
+            "weburl": "https://www.cfm.co.mz/index.php/pt/",
+            "image": "images/cfm.jpg"
+        }
+    ]
+}

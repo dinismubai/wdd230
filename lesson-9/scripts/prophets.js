@@ -9,13 +9,13 @@ return response.json();
 .then(function (jsonObject) {
     const prophets = jsonObject["prophets"];
     console.table(jsonObject);
-    prophets.forEach(displayProphets);
+    prophets.forEach(displayCompanies);
   // temporary checking for valid response and data parsing
 });
 
 
 
-function displayProphets(prophet) {
+function displayCompanies(prophet) {
     // Create elements to add to the document
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
