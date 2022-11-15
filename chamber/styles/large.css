@@ -220,59 +220,69 @@
         height: 400px;
     }
 
+    .centerimg {
+        position: relative;
+        text-align: center;
+    }
+
     #descriptionapartaments {
         position: absolute;
-        top: 37%;
-        left: 1210px;
-        text-align: center;
+        top: 50%;
+        left: 50%;
+        /*text-align: center;
         color: #fff;
-        font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 5em;
-        -webkit-text-stroke: .01px #4e383a;
+        -webkit-text-stroke: .01px #4e383a;*/
+        font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
+        transform: translate(-50%, -50%);
     }
     
     #descriptionmangroove {
         position: absolute;
-        top: 85%;
-        left: 1250px;
-        text-align: center;
+        top: 50%;
+        left: 50%;
+        /*text-align: center;
         color: #fff;
-        font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 5em;
-        -webkit-text-stroke: .01px #4e383a;
+        -webkit-text-stroke: .01px #4e383a;*/
+        font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
+        transform: translate(-50%, -50%);
     }
     
     #descriptionoffice {
         position: absolute;
-        top: 125%;
-        left: 1340px;
-        text-align: center;
+        top: 50%;
+        left: 50%;
+        /*text-align: center;
         color: #fff;
-        font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 5em;
-        -webkit-text-stroke: .01px #4e383a;
+        -webkit-text-stroke: .01px #4e383a;*/
+        font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
+        transform: translate(-50%, -50%);
     }
     
     #descriptionroads {
         position: absolute;
-        top: 160%;
-        left: 1350px;
-        text-align: center;
+        top: 50%;
+        left: 50%;
+        /*text-align: center;
         color: #fff;
-        font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 5em;
-        -webkit-text-stroke: .01px #4e383a;
+        -webkit-text-stroke: .01px #4e383a;*/
+        font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
+        transform: translate(-50%, -50%);
     }
     
     #descriptionsunset {
         position: absolute;
-        top: 200%;
-        left: 1320px;
-        text-align: center;
+        top: 50%;
+        left: 50%;
+        /*text-align: center;
         color: #fff;
-        font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 5em;
-        -webkit-text-stroke: .01px #4e383a;
+        -webkit-text-stroke: .01px #4e383a;*/
+        font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
+        transform: translate(-50%, -50%);
     }
 
     /*    Form     */
