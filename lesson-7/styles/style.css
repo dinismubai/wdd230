@@ -64,31 +64,37 @@ span {
 #firstpicture {
   grid-column: 1;
   grid-row: 1;
+  padding: 5px;
 }
 
 #secondpicture {
   grid-column: 1;
   grid-row: 2;
+  padding: 5px;
 }
 
 #thirdpicture {
   grid-column: 1;
   grid-row: 3;
+  padding: 5px;
 }
 
 #thirdpicture {
   grid-column: 1;
   grid-row: 3;
+  padding: 5px;
 }
 
 #fourthpicture {
   grid-column: 1;
   grid-row: 4;
+  padding: 5px;
 }
 
 #fithpicture {
   grid-column: 1;
   grid-row: 5;
+  padding: 5px;
 }
 
 article img[data-src] {
