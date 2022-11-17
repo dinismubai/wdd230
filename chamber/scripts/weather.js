@@ -1,9 +1,10 @@
 // select HTML elements in the document
-const currentTemp = document.querySelector('#current-temp');
-const weatherIcon = document.querySelector('#weather-icon');
-const captionDesc = document.querySelector('figcaption');
+const currenttemp = document.querySelector('#currenttemp');
+const weathericon = document.querySelector('#weathericon');
+const captiondesc = document.querySelector('#desc');
+const windspedd = document.querySelector('#speed');
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&appid=1487ae7a572f75dcef89502fe056cea9&units=imperial';
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Maputo&appid=1487ae7a572f75dcef89502fe056cea9&units=metric';
 
 async function apiFetch() {
     try {
@@ -23,14 +24,17 @@ async function apiFetch() {
   apiFetch();
 
   function displayResults(weatherData) {
-    currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
+    currenttemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
 
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;
+    const wind = weatherData.wind.speed;
 
-    weatherIcon.setAttribute('src', iconsrc);
-    weatherIcon.setAttribute('alt', desc);
-    captionDesc.textContent = desc;
+    windspedd.innerHTML = wind;
+
+    weathericon.setAttribute('src', iconsrc);
+    weathericon.setAttribute('alt', desc);
+    captiondesc.textContent = desc;
   }
 
 /*dmubai
