@@ -261,6 +261,11 @@ p{
     font-size: 1.2em;
 }
 
+#credit {
+    text-align: left;
+    font-size: .8em;
+}
+
 #weathericon {
     position: absolute;
     margin-left: 8vw;
