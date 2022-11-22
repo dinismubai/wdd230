@@ -234,7 +234,7 @@
         font-size: 5em;
         -webkit-text-stroke: .01px #4e383a;*/
         font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -500%);
     }
     
     #descriptionmangroove {
@@ -246,7 +246,7 @@
         font-size: 5em;
         -webkit-text-stroke: .01px #4e383a;*/
         font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -500%);
     }
     
     #descriptionoffice {
@@ -258,7 +258,7 @@
         font-size: 5em;
         -webkit-text-stroke: .01px #4e383a;*/
         font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -500%);
     }
     
     #descriptionroads {
@@ -270,7 +270,7 @@
         font-size: 5em;
         -webkit-text-stroke: .01px #4e383a;*/
         font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -500%);
     }
     
     #descriptionsunset {
@@ -282,7 +282,7 @@
         font-size: 5em;
         -webkit-text-stroke: .01px #4e383a;*/
         font-family:'Open sans', Tahoma, Geneva, Verdana, sans-serif;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -500%);
     }
 
     /*    Form     */

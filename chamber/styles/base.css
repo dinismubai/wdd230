@@ -268,7 +268,7 @@ p{
 
 #weathericon {
     position: absolute;
-    margin-left: 8vw;
+    /*margin-left: 8vw;*/
 }
 
 .temperature{
@@ -514,6 +514,10 @@ form label.top input:required:valid {
   li > .imgdirectory {
     width: auto;
     height: 30px;
+  }
+
+  #dontcare {
+    display: none;
   }
 
  
