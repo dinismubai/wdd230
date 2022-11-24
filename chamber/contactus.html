@@ -23,8 +23,7 @@
   
 </head>
 
-<body id="bodydirectory"> 
-    
+<body> 
         <header id="headerdirectory">
             <nav>
                 <img class="logo" src="images/logo.webp" alt="Logo image" width="50" height="40">
@@ -42,26 +41,34 @@
             <p id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
             <p id="date"><span id="fulldate"></span></p>
         </header>
+        
+        <main id="contactus">
+            <div class="container">
+                <form action="index.html">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="Mozambique">Mozambique</option>
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
 
-   
-        <main id="maindirectory">
-            <div class="menu">
-                <button id="grid">Grid</button>
-                <button id="list">List</button>
-            </div>
-            <article class="grid">
-
-                <div class="directory"></div>
-                
-            </article>
+                  </select>
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
         </main>
-
-        <!--<div class="maindivdirectory">
-
-            <div class="directory"></div>
-            
-        </div>-->
-   
     
 
     <footer id="footerdirectory">

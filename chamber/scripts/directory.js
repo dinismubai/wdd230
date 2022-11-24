@@ -1,6 +1,7 @@
-/*const gridbutton = document.querySelector("#grid");
+const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector("article");
+const display2 = document.querySelector(".directory");
 
 // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
 
@@ -8,6 +9,9 @@ gridbutton.addEventListener("click", () => {
 	// example using arrow function
 	display.classList.add("grid");
 	display.classList.remove("list");
+
+  display2.classList.add("grid");
+	display2.classList.remove("list");
 });
 
 listbutton.addEventListener("click", showList); // example using defined function
@@ -15,7 +19,11 @@ listbutton.addEventListener("click", showList); // example using defined functio
 function showList() {
 	display.classList.add("list");
 	display.classList.remove("grid");
-}*/
+
+  display2.classList.add("list");
+	display2.classList.remove("grid");
+}
+
 
 // *****************************************************************************
 const requestURL = 'json/data.json';
@@ -42,8 +50,8 @@ function displayCompanies(company) {
     let portrait = document.createElement('img');
     let name = document.createElement('h4');
     let address = document.createElement('h4');
-    let phone = document.createElement('h4');
-    let weburl = document.createElement('h4');
+    let phone = document.createElement('h5');
+    let weburl = document.createElement('a');
   
     // Change the textContent property of the h2 element to contain the prophet's full name
     h2.textContent = `${company.name}`;
@@ -52,16 +60,22 @@ function displayCompanies(company) {
     portrait.setAttribute('src', company.image);
     portrait.setAttribute('class', 'imgdirectory');
     organization.setAttribute('class', "sectiondirectory");
+    weburl.setAttribute('href', 'company.weburl');
     //portrait.setAttribute('alt', 'Portait of ' + `Portrait of ${company.name} ${company.lastname} ${company.order}th Latter-day President`);
     portrait.setAttribute('loading', 'lazy');
     name.innerText = `${company.name}`;
     address.innerText = `${company.address}`;
+    phone.innerText = `${company.phone}`;
+    weburl.innerText = `Visit Us`;
   
     // Add/append the section(card) with the h2 element
     organization.appendChild(h2);
     organization.appendChild(name);
     organization.appendChild(address);
     organization.appendChild(portrait);
+    organization.appendChild(phone);
+    organization.appendChild(weburl);
+
     
   
     // Add/append the existing HTML div with the cards class with the section(card)
