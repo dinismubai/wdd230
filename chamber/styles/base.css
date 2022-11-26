@@ -414,7 +414,7 @@ form label.top, form div {
     display: block;
     padding-top: 1rem;
     color: #4e383a;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
 }
 
 label {
@@ -437,8 +437,8 @@ form label.top input, form label.top select {
 form label.sbs {
     display: block;
     padding: .75rem 0;
-    color: #555;
-    font-size: 1.1rem;
+    color: #4e383a;
+    font-size: 1.7rem;
 }
 
 form input.submitBtn {
@@ -521,7 +521,7 @@ form label.top input:required:valid {
 
   /**************divisoria***************/
   * {
-	margin: 0;
+	/*margin: 0;*/
 	padding: 0;
 	box-sizing: border-box;
 }
@@ -665,6 +665,9 @@ article,
     padding: 20px;
   }
 
+  #memberlevel {
+    display: none;
+  }
  
 
   

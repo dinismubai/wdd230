@@ -233,5 +233,71 @@
         width: 80%;
     }
 
+    #joinpage {
+        display: grid;
+        grid-template-columns: 1.7fr 0.6fr;
+        grid-template-rows: 4fr;
+    }
+
+    #form-grid{
+        grid-column: 1;
+    }
+
+    #memberlevel{
+        margin-top: 2.5em;
+        grid-column: 2;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+        gap: 1em;
+        text-align: center;
+
+    }
+
+    #level1{
+        color: #4e383a;
+        border: 0.2px solid black;
+        grid-row: 1;
+        border-radius: 10px;
+        max-width: 250px;
+        /*word-wrap: break-word;*/
+        
+       
+        
+    }
+
+    #level2{
+        color: #4e383a;
+        border: 1px solid black;
+        grid-row: 2;
+        border-radius: 10px;
+        max-width: 250px;
+        border-radius: 10px;
+    }
+
+    #level3{
+        color: #4e383a;
+        border: 1px solid black;
+        grid-row: 3;
+        border-radius: 10px;
+        max-width: 250px;
+        border-radius: 10px;
+    }
+
+    #level4{
+        color: #4e383a;
+        border: 1px solid black;
+        grid-row: 4;
+        border-radius: 10px;
+        max-width: 250px;
+        border-radius: 10px;
+    }
+
+    .levelsul {
+        margin-left: 1em;
+        margin-top: 1em;
+        font-size: 1.8em;
+    }
+
 
 }
