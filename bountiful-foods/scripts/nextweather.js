@@ -3,7 +3,7 @@ const weathericon1 = document.querySelector('#weathericon1');
 const captiondesc1 = document.querySelector('#desc1');
 const humidity1 = document.querySelector('#humidity1');
 
-const url1 = 'https://api.openweathermap.org/data/2.5/weather?q=London&appid=7b933fdd7bdddc97de6412a297b9165a&units=metric';
+const url1 = 'https://api.openweathermap.org/data/2.5/weather?q=Gaza&appid=7b933fdd7bdddc97de6412a297b9165a&units=metric';
 
 async function apiFetch1() {
     try {

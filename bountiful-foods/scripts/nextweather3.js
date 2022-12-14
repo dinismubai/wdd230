@@ -3,7 +3,7 @@ const weathericon3 = document.querySelector('#weathericon3');
 const captiondesc3 = document.querySelector('#desc3');
 const humidity3 = document.querySelector('#humidity3');
 
-const url3 = 'https://api.openweathermap.org/data/2.5/weather?q=Madrid&appid=7b933fdd7bdddc97de6412a297b9165a&units=metric';
+const url3 = 'https://api.openweathermap.org/data/2.5/weather?q=Sofala&appid=7b933fdd7bdddc97de6412a297b9165a&units=metric';
 
 async function apiFetch3() {
     try {

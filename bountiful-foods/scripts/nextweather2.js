@@ -3,7 +3,7 @@ const weathericon2 = document.querySelector('#weathericon2');
 const captiondesc2 = document.querySelector('#desc2');
 const humidity2 = document.querySelector('#humidity2');
 
-const url2 = 'https://api.openweathermap.org/data/2.5/weather?q=München&appid=7b933fdd7bdddc97de6412a297b9165a&units=metric';
+const url2 = 'https://api.openweathermap.org/data/2.5/weather?q=Matola&appid=7b933fdd7bdddc97de6412a297b9165a&units=metric';
 
 async function apiFetch2() {
     try {
