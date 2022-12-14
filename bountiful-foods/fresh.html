@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Building the final project">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Dinis Mubai">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <title>Bountiful Foods</title>
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!--<link href="styles/normalize.css" rel="stylesheet">-->
+        <link href="styles/base.css" rel="stylesheet">
+        <link href="styles/medium.css" rel="stylesheet">
+        <link href="styles/large.css" rel="stylesheet">
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Shadows+Into+Light&family=Titan+One&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Neucha&family=Shadows+Into+Light&family=Titan+One&display=swap" rel="stylesheet">
+
+
+    
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <img class="logo" src="images/logo.jpg" alt="Logo image" width="110" height="90">
+                <button id="menubtn"><span>&#9776;</span><span>x</span></button>
+                <ul id="primarynav">
+                    <li><a class="navlinks" href="index.html">BOUNTIFUL FOODS</a></li>
+                    <li><a class="navlinks" href="fresh.html">FRESH</a></li>
+                    <li><a class="navlinks" href="#">ABOUT US</a></li>
+                </ul>
+            </nav>
+        
+        </header>
+
+        <main id="fresh-grid">
+            <div id="datainput">
+                
+                <form id="form-grid">
+                    <h1 class="purposeh1">Mix your drink</h1>
+                    <fieldset id="info">
+                        <legend> Information</legend>
+                        <label class="top" id="fname">First Name*<input type="text" name="fname" required></label> 
+                        <label class="top" id="email">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <label class="top" id="phone">Phone*<input type="tel" name="phone" aria-placeholder="1235551234" required></label>
+                        <label class="top">Fruit
+                            
+                            <select id="fruit1" name="fruit" size="1" 
+                                onfocus='this.size=5;' 
+                                onblur='this.size=1;' 
+                                onchange='this.size=1; this.blur();'>
+                                <option value=" ">Please Select &#9662;</option>
+                            </select>
+                            
+                            <select id="fruit2" name="fruit" size="1" 
+                                onfocus='this.size=5;' 
+                                onblur='this.size=1;' 
+                                onchange='this.size=1; this.blur();'>
+                                <option value=" ">Please Select &#9662;</option>
+                            </select>
+                        
+                            <select id="fruit3" name="fruit" size="1" 
+                                onfocus='this.size=5;' 
+                                onblur='this.size=1;' 
+                                onchange='this.size=1; this.blur();'>
+                                <option value=" ">Please Select &#9662;</option>
+                            </select>
+                        </label>
+
+                        <label id="areatext" class="top">Order your imagination</label>
+                        <textarea id="description" name="description" rows="12" cols="45"></textarea>
+
+                        <input id="btn" type="submit" value="TASTE YOUR MIX" class="submitBtn">
+                    </fieldset>
+                    
+                </form>
+
+                <div id="output">
+                    <fieldset id="fieldoutput">
+                        <h2 id="h2output">Check this out</h2>
+                        <label class="print">Name: </label><br>
+                        <label class="print">Email: </label><br>
+                        <label class="print">Phone: </label><br>
+                        <label class="print">Carbs: </label><br>
+                        <label class="print">Proteins: </label><br>
+                        <label class="print">Fat: </label><br>
+                        <label class="print">Sugar: </label><br>
+                        <label class="print">Calories: </label>
+                    </fieldset>
+                </div>
+
+            </div>
+
+            <!--<div id="mixfruit">
+
+            </div>-->
+        </main>
+
+            <footer class="site-footer">
+                <div class="container">
+                 
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                      <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+                   <a href="#">Scanfcode</a>.
+                      </p>
+                    </div>
+          
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                      <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+          </footer>
+        <script src="scripts/script.js"></script>
+        <script src="scripts/select.js"></script>
+    </body>
+
+</html>

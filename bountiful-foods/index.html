@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Building the final project">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Dinis Mubai">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <title>Bountiful Foods</title>
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!--<link href="styles/normalize.css" rel="stylesheet">-->
+        <link href="styles/base.css" rel="stylesheet">
+        <link href="styles/medium.css" rel="stylesheet">
+        <link href="styles/large.css" rel="stylesheet">
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Shadows+Into+Light&family=Titan+One&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Neucha&family=Shadows+Into+Light&family=Titan+One&display=swap" rel="stylesheet">
+
+
+    
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <img class="logo" src="images/logo.jpg" alt="Logo image" width="110" height="90">
+                <button id="menubtn"><span>&#9776;</span><span>x</span></button>
+                <ul id="primarynav">
+                    <li><a class="navlinks" href="index.html">BOUNTIFUL FOODS</a></li>
+                    <li><a class="navlinks" href="fresh.html">FRESH</a></li>
+                    <li><a class="navlinks" href="#">ABOUT US</a></li>
+                </ul>
+            </nav>
+        
+        </header>
+
+        <main id="home-grid">
+            <div id="business-information">
+                <h2 class="subtitle">BUSINESS INFORMATION</h2>
+                <h2 id="beauty">
+                    Bountiful Foods
+                </h2>
+                <p class="paragraph">
+                    South California 2587, Coastal Area  <br><br>Tel: +258 548 788 500   <br>Email: btfulfoods@btfood.co.mz
+                </p>
+               
+            </div>
+
+            <div id="about-california">
+                <h2 class="subtitle">INFORMATION ABOUT SOUTH CALIFORNIA</h2>
+                <p class="paragraph">
+                    Southern California is a geographic and cultural region that generally 
+                    comprises the southern portion of the U.S. state of California. It includes the Los Angeles metropolitan area, 
+                    the second most populous urban agglomeration in the United States.
+                </p>
+            </div>
+
+            <div id="call-action">
+                <h2 class="subtitle">TOTAL SPECIAL DRINKS</h2>
+                <hr>
+
+                <!--Images Start Here-->
+                <div id="thepictures">
+            
+                    <picture class="pictures">
+                        <source srcset="images/housesmedium.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                        <source srcset="images/houseslarge.jpg" media="(min-width: 800px)">   
+                        <img class="imgs" src="images/placeholder.png" data-src="images/logo.jpg" alt="houses image" loading="lazy" width="375" height="300">
+                    </picture>
+                    <!--<div class="centerimg">
+                        <h3 id="descriptionapartaments">Apartaments</h3>
+                    </div>-->
+        
+                    
+                    <picture class="pictures">
+                        <source srcset="images/mangalmedium.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                        <source srcset="images/mangallarge.jpg" media="(min-width: 800px)">
+                        <img class="imgs" src="images/placeholder.png" data-src="images/logo.jpg" alt="mangal image" loading="lazy" width="375" height="300">
+                    </picture>
+                    <!--<div class="centerimg">
+                        <h3 id="descriptionmangroove">Mangroves</h3>
+                    </div>-->
+        
+                    
+                    <picture class="pictures">
+                        <source srcset="images/officemedium.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                        <source srcset="images/officelarge.jpg" media="(min-width: 800px)">
+                        <img class="imgs" src="images/placeholder.png" data-src="images/logo.jpg" alt="office image" loading="lazy" width="375" height="300">
+                    </picture>
+                    <!--<div class="centerimg">
+                        <h3 id="descriptionoffice">Offices</h3>
+                    </div>-->
+        
+                    
+                    <picture class="pictures">
+                        <source srcset="images/roadsmedium.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                        <source srcset="images/roadslarge.jpg" media="(min-width: 800px)">
+                        <img class="imgs" src="images/placeholder.png" data-src="images/logo.jpg" alt="roads image" loading="lazy" width="375" height="300">
+                    </picture>
+                    <!--<div class="centerimg">
+                        <h3 id="descriptionroads">Roads</h3>
+                    </div>-->
+        
+                </div>
+
+                <!--Images End Here-->
+
+                <button id="juicebtn" onclick="window.location.href='#fresh.html';" value="fresh">MAKE YOUR FRUIT MIX</button>
+                
+            </div>
+
+            <div id="weather-cards">
+                <div id="current-weather">
+                    <span id="current"></span>
+                    <figure>
+                        <img src="#" alt="#" id="weathericon" width="45" height="45">
+                        <figcaption></figcaption>
+                    </figure>
+                    <p class="temperature"><span id="currenttemp"></span>ºC</p>
+                    <p id="desc" class="temperature"></p>
+                    <p id="temperature">Humidity: <span id="humidity"></span></p>
+                </div>
+
+                <div id="day1-weather">
+                    <span id="day1"></span>
+                    <figure>
+                        <img src="#" alt="#" id="weathericon1" width="45" height="45">
+                        <figcaption></figcaption>
+                    </figure>
+                    <p class="temperature"><span id="currenttemp1"></span>ºC</p>
+                    <p id="desc1" class="temperature"></p>
+                    <p id="temperature">Humidity: <span id="humidity1"></span></p>
+                </div>
+
+                <div id="day2-weather">
+                    <span id="day2"></span>
+                    <figure>
+                        <img src="#" alt="#" id="weathericon2" width="45" height="45">
+                        <figcaption></figcaption>
+                    </figure>
+                    <p class="temperature"><span id="currenttemp2"></span>ºC</p>
+                    <p id="desc2" class="temperature"></p>
+                    <p id="temperature">Humidity: <span id="humidity2"></span></p>
+                </div>
+
+                <div id="day3-weather">
+                    <span id="day3"></span>
+                    <figure>
+                        <img src="#" alt="#" id="weathericon3" width="45" height="45">
+                        <figcaption></figcaption>
+                    </figure>
+                    <p class="temperature"><span id="currenttemp3"></span>ºC</p>
+                    <p id="desc3" class="temperature"></p>
+                    <p id="temperature">Humidity: <span id="humidity3"></span></p>
+                </div>
+            </div>
+        </main>
+
+            <footer class="site-footer">
+                <div class="container">
+                 
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                      <p class="copyright-text">Last Modified 
+                   
+                      </p>
+                    </div>
+          
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                      <ul class="social-icons">
+                        <li><a class="facebook" href="#"></a></li>
+                        <li><a class="twitter" href="#"></a></li>
+                        <li><a class="dribbble" href="#"></a></li>
+                        <li><a class="linkedin" href="#"></a></li>   
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+          </footer>
+        <script src="scripts/images.js"></script>
+        <script src="scripts/script.js"></script>
+        <script src="scripts/weather.js"></script>
+        <script src="scripts/nextweather.js"></script>
+        <script src="scripts/nextweather2.js"></script>
+        <script src="scripts/nextweather3.js"></script>
+        <script src="scripts/date.js"></script>
+    </body>
+
+</html>
