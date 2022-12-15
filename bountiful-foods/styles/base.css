@@ -260,6 +260,31 @@ nav ul.open {
   background-color:#ea4c89
 }
 
+#copyright {
+  font-size: 1.5em;
+  text-align: center;
+  font-family: 'Neucha', 'Courier', 'monospace';
+  color: white;
+  padding: 5px;
+}
+
+.socialicons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-right: 25%;
+
+}
+
+.socials {
+  float: right;
+}
+
+.socials img {
+  text-align: center;
+}
+
  /**************************Footer Ends Here*********************************/ 
 
  /*************************** HOME GRID STARTS HERE **************************/
@@ -635,6 +660,36 @@ form label.top input:required:valid {
   border: 1px solid #ff7c12;
   border-radius: 10px;
   padding: .5rem 2%;
+}
+
+/*********************************ABOUT US***************************************************/
+#aboutus-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+}
+
+#history {
+  grid-column: 1;
+  grid-row: 1;
+  height: 25em;
+  background-color: #ffa090;
+  text-align: center;
+  font-family: "Neucha";
+  color: #7b2031;
+  font-size: 1.6em;
+}
+
+#map {
+  grid-column: 1;
+  grid-row: 2;
+  height: 30em;
+  background-color: #ffa090;
+  text-align: center;
+  font-family: "Neucha";
+  color: #7b2031;
+  font-size: 1.3em;
 }
 
 

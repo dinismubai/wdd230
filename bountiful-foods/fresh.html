@@ -35,7 +35,7 @@
                 <ul id="primarynav">
                     <li><a class="navlinks" href="index.html">BOUNTIFUL FOODS</a></li>
                     <li><a class="navlinks" href="fresh.html">FRESH</a></li>
-                    <li><a class="navlinks" href="#">ABOUT US</a></li>
+                    <li><a class="navlinks" href="aboutus.html">ABOUT US</a></li>
                 </ul>
             </nav>
         
@@ -51,7 +51,7 @@
                         <label class="top" id="fname">First Name*<input type="text" name="fname" required></label> 
                         <label class="top" id="email">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
                         <label class="top" id="phone">Phone*<input type="tel" name="phone" aria-placeholder="1235551234" required></label>
-                        <label class="top">Fruit
+                        <div class="top">Fruit
                             
                             <select id="fruit1" name="fruit" size="1" 
                                 onfocus='this.size=5;' 
@@ -73,7 +73,7 @@
                                 onchange='this.size=1; this.blur();'>
                                 <option value=" ">Please Select &#9662;</option>
                             </select>
-                        </label>
+                        </div>
 
                         <label id="areatext" class="top">Order your imagination</label>
                         <textarea id="description" name="description" rows="12" cols="45"></textarea>
@@ -105,27 +105,20 @@
         </main>
 
             <footer class="site-footer">
-                <div class="container">
+                <p id="copyright">&copy; <span id="year"></span> Bountiful Foods <br> 
+                    Dinis M. Mubai <br>
+                    WDD 230 Project<br>
+                    Last Updated:<span id="lastmodified"></span></p>
                  
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-8 col-sm-6 col-xs-12">
-                      <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
-                   <a href="#">Scanfcode</a>.
-                      </p>
-                    </div>
-          
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                      <ul class="social-icons">
-                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
-                      </ul>
-                    </div>
-                  </div>
-                </div>
+                    <ul class="socialicons">
+                        <li class="socials"><a class="facebook" href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" alt="facebook icon" width="45" height="45"></a></li>
+                        <li class="socials"><a class="twitter" href="https://www.twitter.com" target="_blank"><img src="images/twitter.png" alt="facebook icon" width="45" height="45"></a></li>
+                        <li class="socials"><a class="instagram" href="https://www.instagram.com" target="_blank"><img src="images/instagram.png" alt="facebook icon" width="45" height="45"></a></li>
+                        <li class="socials"><a class="linkedin" href="https://www.linkedin.com" target="_blank"><img src="images/linkedin.png" alt="facebook icon" width="45" height="45"></a></li>      
+                      </ul>  
           </footer>
+          <script src="scripts/lastmodified.js"></script>
+          <script src="scripts/year.js"></script>
         <script src="scripts/script.js"></script>
         <script src="scripts/select.js"></script>
     </body>
