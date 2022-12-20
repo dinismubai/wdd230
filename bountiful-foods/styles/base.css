@@ -310,12 +310,14 @@ nav ul.open {
     grid-column: 1;
     grid-row: 2;
     background-color: #ffa090;
+    height: fit-content;
  }
 
  #call-action{
     grid-column: 1;
     grid-row: 3;
     background-color: #ffa090;
+    margin-top: -10.5em;
  }
 
  #weather-cards{
@@ -407,7 +409,7 @@ nav ul.open {
   -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: middle;
-  margin-top: 3em;
+  margin-top: 13em;
   margin-left: 0em;
 }
 
@@ -503,7 +505,7 @@ nav ul.open {
   grid-column: 1;
   grid-row: 1;
   background-color: #ffa090;
-  height: 90em;
+  height: 93em;
 }
 
 /*#mixfruit {
@@ -637,7 +639,7 @@ form label.top input:required:valid {
 /********************* OUTPUT*****************************************/
 .output {
   display: flex;
-
+  height: fit-content;
   
 }
 
@@ -662,6 +664,20 @@ form label.top input:required:valid {
   padding: .5rem 2%;
 }
 
+#mixesoutput {
+  font-size: 1.2em;
+  font-family: "Lemon";
+  color: #7b2031;
+  margin-left: 1em;
+  text-align: center;
+}
+
+.mixes {
+  font-size: 1.1em;
+  font-family: "Lemon";
+  color: #7b2031;
+  margin-left: 9em;
+}
 /*********************************ABOUT US***************************************************/
 #aboutus-grid {
   display: grid;
@@ -673,7 +689,7 @@ form label.top input:required:valid {
 #history {
   grid-column: 1;
   grid-row: 1;
-  height: 25em;
+  /*height: 18em;*/
   background-color: #ffa090;
   text-align: center;
   font-family: "Neucha";
@@ -684,7 +700,7 @@ form label.top input:required:valid {
 #map {
   grid-column: 1;
   grid-row: 2;
-  height: 30em;
+  /*height: 35em;*/
   background-color: #ffa090;
   text-align: center;
   font-family: "Neucha";

@@ -38,6 +38,7 @@
     grid-column: 1;
     grid-row: 2;
     background-color: #ffa090;
+    height: 28em;
  }
 
  #weather-cards{
@@ -56,6 +57,7 @@
     grid-column: 2;
     grid-row: 1/3;
     background-color: #ffa090;
+    margin-top: 0em;
  }
 
  #current-weather {

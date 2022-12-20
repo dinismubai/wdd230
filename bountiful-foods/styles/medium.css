@@ -2,6 +2,12 @@
     
 
     /************* Main ************************/
+    #call-action{
+      grid-column: 1;
+      grid-row: 3;
+      background-color: #ffa090;
+      margin-top: -24.5em;
+   }
   
     /***************Footer**********************/
     
@@ -29,6 +35,46 @@
     form input.submitBtn {
       margin: 0 0 2rem -38%;
     }
+
+    #juicebtn {
+     
+      margin-top: 1em;
+      margin-bottom:  1em;
+    }
+
+    /*********************************ABOUT US***************************************************/
+#history {
+  grid-column: 1;
+  grid-row: 1;
+  height: 12em;
+  background-color: #ffa090;
+  text-align: center;
+  font-family: "Neucha";
+  color: #7b2031;
+  font-size: 1.6em;
+}
+
+#map {
+  grid-column: 1;
+  grid-row: 2;
+  background-color: #ffa090;
+  text-align: center;
+  font-family: "Neucha";
+  color: #7b2031;
+  font-size: 1.3em;
+  margin-top: -4.7em;
+}
+
+/******************IMAGES*************************/
+.imgs {
+  width: 675px;
+  height: 515px;
+}
+
+/***************OUTPUT*********************************/
+.mixes {
+  margin-left: 19em;
+}
 
 
 
